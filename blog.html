@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.jpg" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs For 2022</h1>
+    </section>
+
+    <!----blog page content---->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/blog3.jpg" />
+          <h2>Our Certificate & Online Programs For 2022</h2>
+          <p>
+            <h4>At Eduford, there's always something exciting for everyone-whether it's sports,art <br>
+               and culture,wellness activities</h4>
+          </p>
+          <br />
+          <p>
+            Life at Eduford is more than academic success.Fuel your passion with our student development <br>
+             programmes. Experience the rich tapestry of campus life by joining our clubs and societies. <br>
+             Our halls of residence offer a vibrant ecosystem with many opportunities for you to develop a life-<br>
+            long global network.By immersing yourselves in numerous exciting and joyful hall activities,you may <br>
+             build friendship with fellow students from diverse cultures and nationalities.
+          </p>
+          <br />
+          <p>
+            Founded in 1995,Eduford is Ranked as the 3rd Best University in the World According to Quacquarelli<br>
+            Symonds Rankings(QS RANKINGS),We now Become a Modern Comprehensive University.We Tailor our<br>
+            Professional Programmes to adapt to market trends and meet industry needs,thus providing our<br>
+            students with quality professional education and clear career paths. <br>
+            Our signature programmes include areas in high demand,such as nursing,physiotherapy,medical<br>
+            laboratory,technology,building services Engineering,Creative arts,early Childhood education,<br>
+            Business management and corporate governance.Our efforts and achievements in providing<br>
+            professional education are evidenced by the largest share in the number of subsidized places<br>
+            under the study Subsidy Scheme for designated Professions/Sectors(SSSDP),funded by the Government.
+          </p>
+          <br />
+          <p>
+            <h4>Our Vision</h4>
+          </p>
+          <p> To be a leader in providing open and flexible education to all, and to excel as a provider <br>
+            of quality higher education</p><br>
+            <p>
+              <h4>Our Mission</h4>
+            </p>
+            <p>To advance learning,Knowledge, and research that meet students' learning aspirations and<br>
+              society's talent needs,focusing on practical and professional Programmes.As a multi-mode<br>
+              university,we use innovative teaching and education technology to offer world class education,<br>
+              guided by our core values of fairness,integrity,perseverance,and innovation</p>
+          <div class="comment-box">
+            <h3>Leave A Comment</h3>
+
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Your comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>QS Rankings</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>15th</span>
+          </div>
+          <div>
+            <span>Data Science & Machine Learning</span>
+            <span>5th</span>
+          </div>
+          <div>
+            <span>Computer Science & Artificial Intelligence</span>
+            <span>2nd</span>
+          </div>
+          <div>
+            <span>Information & Computer Engineering</span>
+            <span>4th</span>
+          </div>
+          <div>
+            <span>Electrical & Electronic Engineering</span>
+            <span>3rd</span>
+          </div>
+          <div>
+            <span>Robotics & Aerospace Engineering</span>
+            <span>7th</span>
+          </div>
+          <div>
+            <span>Accounting & Actuarial Science</span>
+            <span>10th</span>
+          </div>
+          <div>
+            <span>Linguistics & Childhood Education</span>
+            <span>21th</span>
+          </div>
+          <div>
+            <span>Real Estate Management</span>
+            <span>1st</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---Footer--->
+    <section class="footer">
+      <h4>About us</h4>
+      <p>
+        We give you abundant opportunities to develop your potentials and <br />
+        we provide you with a professional education that leads to career
+        success.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Ibidapo Daniel Adedayo</p>
+    </section>
+
+    <!------JavaScript for Toggle Menu---->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
